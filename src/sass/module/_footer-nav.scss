@@ -1,0 +1,76 @@
+@use "global" as *;
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav__container + .footer-nav__container {
+    margin-left: rem(120);
+}
+
+.footer-nav__flex {
+    display: flex;
+    flex-direction: column;
+    gap: rem(16);
+    @include mq(md){
+        flex-direction: initial;
+        padding-bottom: rem(40);
+        gap: rem(112);
+    }
+}
+
+.footer-nav__flex:not(:first-child){
+    @include mq(md){
+     margin-left: rem(112);
+    }
+}
+
+.footer-nav__group:first-child {
+    width: rem(168);
+}
+
+.footer-nav__container:not(:first-child) {
+     margin-left: 0;
+     @include mq(md){
+     margin-left: rem(120);
+     }
+}
+
+.footer-nav__wrapper {
+    padding-bottom: rem(40);
+}
+
+.footer-nav__title {
+    font-family: $base-font-family;
+    font-weight: $bold;
+    font-size: rem(16);
+    line-height: calc(18/16);
+    color: $white;
+    display: flex;
+    margin-left: rem(4);
+}
+
+.footer-nav__title::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../images/common/hitode.png);
+    width: rem(18);
+    height: rem(18);
+    background-size: contain;
+    vertical-align: middle;
+}
+
+.footer-nav__lists {
+    margin-left: rem(18);
+}
+
+.footer-nav__list {
+    font-family: $base-font-family;
+    font-weight: $regular;
+    font-size: rem(16);
+    line-height: calc(18/16);
+    color: $white;
+    margin-top: rem(24);
+}
+
+
