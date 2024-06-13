@@ -27,3 +27,20 @@
     color: $green-accent;
 }
 
+.section-header__title--white {
+    @include mq(md){
+        color: $white;
+    }
+}
+
+.section-header__title--white::first-letter {
+    @include mq(md){
+        color: $white;
+    }
+}
+
+.section-header__subtitle--white {
+    @include mq(md){
+        color: $white;
+    }
+}

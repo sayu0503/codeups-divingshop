@@ -1,0 +1,26 @@
+@use "global" as *;
+
+.blog {
+    background-image: none;
+    @include mq(md){
+        background-image: url(../images/common/blog_img_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.blog__contents {
+    margin-top: rem(24);
+}
+
+.blog__contents {
+    display: grid;
+    gap: rem(40);
+    grid-template-columns: repeat(auto-fit, minmax(rem(333), 1fr));
+    @include mq(md){
+    }
+}
+
+.blog__btn {
+    margin-top: rem(40);
+}
