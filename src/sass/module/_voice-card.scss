@@ -80,7 +80,7 @@
 }
 
 .voice-card__img {
-    // flex: 1;
+    flex-grow: 1;
     aspect-ratio: 151/117;
     margin-left: rem(6);
     @include mq(md){

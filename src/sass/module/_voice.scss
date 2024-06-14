@@ -10,3 +10,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+.voice__btn {
+    padding-top: rem(40);
+    @include mq(md){
+        padding-top: rem(80);
+    }
+}

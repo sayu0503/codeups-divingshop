@@ -5,7 +5,7 @@
     @include mq(md){
         background-image: url(../images/common/blog_img_bg.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 60%;
     }
 }
 
@@ -23,4 +23,7 @@
 
 .blog__btn {
     margin-top: rem(40);
+    @include mq(md){
+        margin-top: rem(80);
+    }
 }
