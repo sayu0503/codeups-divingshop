@@ -5,6 +5,17 @@
     background-color: $green2;
     @include mq(md){
         padding: rem(100) 0;
+        position: relative;
+    }
+}
+
+.price__img-fish {
+    @include mq(md){
+        position: absolute;
+        bottom: rem(60);
+        left: rem(100);
+        width: rem(437);
+        height: auto;
     }
 }
 
@@ -86,3 +97,4 @@
         margin-top: rem(80);
     }
 }
+

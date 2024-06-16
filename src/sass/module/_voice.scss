@@ -1,5 +1,32 @@
 @use "global" as *;
 
+
+.voice {
+    @include mq(md){
+        position: relative;
+    }
+}
+
+.voice__img-fish {
+    @include mq(md){
+        position: absolute;
+        top: rem(-150);
+        left: rem(100);
+        width: rem(301);
+        height: auto;
+    }
+}
+
+.voice__img-tatunootoshigo {
+    @include mq(md){
+        position: absolute;
+        bottom: rem(-80);
+        right: rem(180);
+        width: rem(71);
+        height: auto;
+    }
+}
+
 .voice__contents {
     display: grid;
     gap: rem(40);

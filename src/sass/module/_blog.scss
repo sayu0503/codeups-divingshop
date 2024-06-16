@@ -6,18 +6,27 @@
         background-image: url(../images/common/blog_img_bg.jpg);
         background-repeat: no-repeat;
         background-size: 100% 60%;
+        position: relative;
+    }    }
+
+
+.blog__img {
+    @include mq(md){
+        position: absolute;
+        top: rem(24);
+        left: rem(100);
+        width: rem(437);
+        height: auto;
     }
 }
 
 .blog__contents {
     margin-top: rem(24);
-}
-
-.blog__contents {
     display: grid;
     gap: rem(40);
     grid-template-columns: repeat(auto-fit, minmax(rem(333), 1fr));
     @include mq(md){
+        margin-top: rem(80);
     }
 }
 

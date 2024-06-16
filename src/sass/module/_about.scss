@@ -1,5 +1,12 @@
 @use "global" as *;
 
+
+.about {
+    @include mq(md){
+        position: relative;
+
+    }
+}
 .about__inner {
     max-width: rem(1130);
     padding-left: rem(25);
@@ -8,14 +15,14 @@
 }
 
 .about__image-container {
-     position: relative;
-     margin-top: rem(24);
-     height: rem(120);
-     width: rem(345);
-    @include mq(md){
-        margin-top: rem(40);
-        width: rem(800);
-    }
+      position: relative;
+      margin-top: rem(24);
+      height: rem(120);
+      width: rem(345);
+     @include mq(md){
+         margin-top: rem(40);
+         width: rem(800);
+     }
 }
 
 .about__image1 {
@@ -46,6 +53,16 @@
         left: rem(200);
      }
  }
+
+.about__image3 {
+    @include mq(md){
+        position: absolute;
+        left: calc(50% - rem(-450));
+        bottom: rem(-650);
+        width: rem(194);
+        z-index: 9;
+    }
+}
 
  .about__text-group {
      @include mq(md){

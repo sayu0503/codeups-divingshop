@@ -1,0 +1,20 @@
+@use "global" as *;
+
+.access {
+    text-align: center;
+}
+
+.access__title {
+    width: rem(174);
+    @include mq(md){
+        width: rem(200);
+    }
+}
+
+.access__title-wrap{
+    
+}
+
+.access__title img{
+    display: inline-block;
+}

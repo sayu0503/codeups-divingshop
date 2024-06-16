@@ -32,7 +32,7 @@
   <script defer src="./assets/js/script.js"></script>
 </head>
 <body>
-  <header class="top-header header">
+  <header class="top-header header" id="js-header">
     <div class="header__inner">
       <h1 class="header__title">
         <a href="#" class="header__logo-link">
@@ -228,7 +228,7 @@
 
   <main>
 <!-- メインビュー -->
-    <div class="mv">
+    <div class="mv" id="js-mv">
       <div class="mv__inner">
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
@@ -377,6 +377,7 @@
         <div class="about__image-container">
           <img src="./assets/images/common/about_img_1.jpg" alt="瓦屋根の上のシーサー" class="about__image1">
           <img src="./assets/images/common/about_img_2.jpg" alt="黄色い二匹の魚が泳いでいる様子" class="about__image2">
+          <img src="./assets/images/common/sango.png" alt="サンゴの挿絵" class="about__image3 u-desktop">
         </div>
         <div class="about__text-group">
         <p class="about__title">Dive into<br>the Ocean</p>
@@ -399,7 +400,7 @@
           <p class="section-header__subtitle">ダイビング情報</p>
         </div>
         <div class="information__contents">
-          <div class="information__image">
+          <div class="information__image colorbox">
             <img src="./assets/images/common/information_img_1.jpg" alt="黄色い熱帯魚が泳いでいる様子">
           </div>
           <div class="information__body">
@@ -420,6 +421,9 @@
         <div class="blog__section-header section-header">
           <h2 class="section-header__title section-header__title--white">Blog</h2>
           <p class="section-header__subtitle section-header__subtitle--white">ブログ</p>
+        </div>
+        <div class="blog__img">
+          <img src="./assets/images/common/fish.png" alt="魚の群れの挿絵" class="u-desktop">
         </div>
         <div class="blog__contents">
           <a href="#" class="blog-card">
@@ -469,6 +473,12 @@
         <h2 class="section-header__title">Voice</h2>
         <p class="section-header__subtitle">お客様の声</p>
       </div>
+      <div class="voice__img-fish">
+        <img src="./assets/images/common/fish_2.png" alt="魚の群れの挿絵" class="u-desktop">
+      </div>
+      <div class="voice__img-tatunootoshigo">
+        <img src="./assets/images/common/tatunootoshigo.png" alt="タツノオトシゴの挿絵" class="u-desktop">
+      </div>
       <div class="voice__contents">
         <a href="#" class="voice-card">
           <div class="voice-card__body">
@@ -483,8 +493,8 @@
                 <div class="voice-card__title">ここにタイトルが入ります。ここにタイトル</div>
               </div>
               <div class="voice-card__img">
-                <figure class="voice-card__img">
-                  <img src="./assets/images/common/voice_img_1.jpg" alt="">
+                <figure class="voice-card__img colorbox">
+                  <img src="./assets/images/common/voice_img_1.jpg" alt="麦わら帽子を被った笑顔の女性">
                 </figure>
               </div>
             </div>
@@ -506,8 +516,8 @@
                 <div class="voice-card__title">ここにタイトルが入ります。ここにタイトル</div>
               </div>
               <div class="voice-card__img">
-                <figure class="voice-card__img">
-                  <img src="./assets/images/common/voice_img_2.jpg" alt="">
+                <figure class="voice-card__img colorbox">
+                  <img src="./assets/images/common/voice_img_2.jpg" alt="親指を立てた男性">
                 </figure>
               </div>
             </div>
@@ -529,6 +539,9 @@
       <div class="price__section-header section-header">
         <h2 class="section-header__title">Price</h2>
         <p class="section-header__subtitle">料金一覧</p>
+      </div>
+      <div class="price__img-fish">
+        <img src="./assets/images/common/fish_3.png" alt="魚の群れの挿絵" class="u-desktop">
       </div>
       <div class="price__contents">
         <div class="price__content">
@@ -601,7 +614,7 @@
             </div>
           </dl>
         </div>
-        <div class="price__image">
+        <div class="price__image colorbox">
           <picture>
             <source srcset="./assets/images/common/price_img_1.jpg" alt="赤い魚の群れ" media="(min-width: 768px)">
             <img src="./assets/images/common/price_img_2.jpg" alt="ウミガメが泳いでいる様子">
@@ -613,6 +626,42 @@
       </div>
     </div>
    </section>
+
+   <!-- Contact -->
+    <section class="top-contact-info contact-info">
+      <div class="contact-info__inner inner">
+        <div class="contact-info__contents">
+          <div class="access">
+            <div class="access__title-wrap">
+            <div class="access__title">
+              <img src="./assets/images/common/logo-green.svg" alt="CodeUps">
+            </div>
+          </div>
+            <div class="access__container">
+              <div class="access__text-group">
+                <p class="access__text">沖縄県那覇市1-1</p>
+                <p class="access__text">TEL:0120-000-0000</p>
+                <p class="access__text">営業時間:8:30-19:00</p>
+                <p class="access__text">定休日:毎週火曜日</p>
+              </div>
+              <div class="access__map"></div>
+            </div>
+          </div>
+          <div class="contact">
+            <div class="contact__inner">
+                <div class="contact__section-header section-header">
+                  <h2 class="section-header__title">Contact</h2>
+                  <p class="section-header__subtitle">お問合せ</p>
+                </div>
+              <div class="contact__text">ご予約・お問い合わせはコチラ</div>
+              <div class="contact__btn">
+                <a href="#" class="button">View&nbsp;more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
   </main>
