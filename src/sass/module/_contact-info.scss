@@ -1,9 +1,30 @@
 @use "global" as *;
 
 .contact-info {
-
+    position: relative;
 }
 
 .contact-info__inner {
     
+}
+
+.contact-info__img-fish {
+    position: absolute;
+    width: rem(109);
+    top: rem(-20);
+    right: rem(15);
+    @include mq(md){
+    top: rem(-50);
+    right: rem(50);
+    width: rem(301);
+    height: auto;
+  }
+}
+
+.contact-info__contents {
+    @include mq(md){
+    display: flex;
+    padding: rem(80) 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    }
 }
