@@ -125,6 +125,45 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
         }
  });
 });
+});
 
+$(function () {
+  const pageTop = $(".js-page-top");
+  pageTop.hide();
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 20) {
+      pageTop.fadeIn();
+    } else {
+      pageTop.fadeOut();
+    }
+  });
+  pageTop.click(function () {
+    $("body, html").animate(
+      {
+        scrollTop: 0,
+      },
+      300
+    );
+    return false;
+  });
+
+  $(window).on("scroll", function () {
+    let scrollHeight = $(document).height();
+    let scrollPosition = $(window).height() + $(window).scrollTop();
+    let footHeight = $("footer").innerHeight();
+
+    if (scrollHeight - scrollPosition <= footHeight) {
+      // ページトップボタンがフッター手前に来たらpositionとfixedからabsoluteに変更
+      pageTop.css({
+        position: "absolute",
+        bottom: footHeight + 20, // 余裕を持たせるために10ピクセル追加
+      });
+    } else {
+      pageTop.css({
+        position: "fixed",
+        bottom: "20px",
+      });
+    }
+  });
 });
 
