@@ -1,8 +1,6 @@
 @use "global" as *;
 
 .top-information {
-    padding: rem(80) 0;
-    background-color: $green2;
     margin-top: rem(70);
     @include mq(md){
         margin-top: rem(700);

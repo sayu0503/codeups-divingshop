@@ -1,27 +1,8 @@
 @use "global" as *;
 
 .information {
-
-}
-
-.information__inner {
-
-}
-
-.information__section-header {
-
-}
-
-.section-header {
-
-}
-
-.section-header__title {
-
-}
-
-.section-header__subtitle {
-
+    padding: rem(80) 0;
+    background-color: $green2;
 }
 
 .information__contents {
@@ -35,6 +16,9 @@
 
 .information__image {
    margin-top: rem(24);
+   position: relative;
+   width: 80%;
+   margin: 30px auto 30px;
 }
 
 .information__image img {

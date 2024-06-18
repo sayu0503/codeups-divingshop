@@ -1,0 +1,39 @@
+@use "global" as *;
+
+.gnavi {
+    display: flex;
+    list-style: none;
+}
+
+.gnavi li a {
+    padding: rem(10) rem(30);
+    text-decoration: none;
+    color: $white;
+}
+
+.gnavi li a p{
+    position: relative;
+}
+
+.gnavi li.current a,
+.gnavi li a:hover {
+    color: $white;
+}
+
+.gnavi li a p::after {
+    content: "";
+    position: absolute;
+    bottom: rem(0);
+    left: 0;
+    width: 100%;
+    height: rem(1);
+    background: $white;
+    transition: all .3s;
+    transform: scale(0, 1);
+    transform-origin: center top;
+}
+
+.gnavi li.current a p::after,
+.gnavi li a p:hover::after {
+    transform: scale(1, 1);
+}
