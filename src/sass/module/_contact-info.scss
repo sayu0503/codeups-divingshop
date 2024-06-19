@@ -4,10 +4,6 @@
     position: relative;
 }
 
-.contact-info__inner {
-    
-}
-
 .contact-info__img-fish {
     position: absolute;
     width: rem(109);
@@ -15,7 +11,7 @@
     right: rem(15);
     @include mq(md){
     top: rem(-50);
-    right: rem(50);
+    right: calc(50% - min(50vw,550px));
     width: rem(301);
     height: auto;
   }

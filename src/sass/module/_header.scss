@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 $padding-sp;
+    padding: 0 rem(13);
     @include mq(md){
         padding-left: rem(40);
         padding-right: rem(20);
@@ -42,6 +42,14 @@
     }
 }
 
+
+.header__title {
+    margin-top: rem(6);
+    @include mq(md){
+        margin-top: rem(0);
+    }
+}
+
 .header__logo-link {
     display: block;
     position: relative;
@@ -49,7 +57,7 @@
 }
 
 .header__logo-link img{
-    width: rem(102);
+    width: rem(107);
     @include mq(md){
         width: rem(133);
     }

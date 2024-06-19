@@ -21,8 +21,8 @@
     position: absolute;
     transform: translate(-50%);
     @include mq(md){
-        width: 80px;
-        height: 80px;
+        width: rem(80);
+        height: rem(80);
     }
 }
 

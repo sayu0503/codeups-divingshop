@@ -5,7 +5,7 @@
     list-style: none;
 }
 
-.gnavi li a {
+.gnavi li a{
     padding: rem(10) rem(30);
     text-decoration: none;
     color: $white;
@@ -15,8 +15,8 @@
     position: relative;
 }
 
-.gnavi li.current a,
-.gnavi li a:hover {
+.gnavi li.current a p,
+.gnavi li a p:hover {
     color: $white;
 }
 

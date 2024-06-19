@@ -1,21 +1,14 @@
 @use "global" as *;
 
-.campaign {
-    
-}
-
-.campaign__inner {
-
-}
 .campaign__container {
     position: relative;
     padding-left: rem(15);
-    margin-top: rem(40);
+    margin-top: rem(29);
     @include mq(md){
        padding-left: rem(160);
    }
 }
 
 .campaign__btn {
-    margin-top: rem(40);
+    margin-top: 30px;
 }

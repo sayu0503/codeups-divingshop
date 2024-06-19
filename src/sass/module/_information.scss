@@ -1,9 +1,21 @@
 @use "global" as *;
 
 .information {
-    padding: rem(80) 0;
+    padding: rem(80) 0 rem(84);
     background-color: $green2;
 }
+
+.information__inner {
+    max-width: rem(1130);
+    padding-left: rem(15);
+    padding-right: rem(15);
+    margin-inline: auto;
+    @include mq(md){
+    padding-left: rem(25);
+    padding-right: rem(25);
+  }
+}
+
 
 .information__contents {
     @include mq(md){
@@ -15,10 +27,10 @@
 }
 
 .information__image {
-   margin-top: rem(24);
+   margin-top: rem(27);
    position: relative;
-   width: 80%;
-   margin: 30px auto 30px;
+   width: 100%;
+   margin: 30px auto 0;
 }
 
 .information__image img {
@@ -35,7 +47,6 @@
         margin-left: rem(48);
         max-width: rem(492);
         width: 100%;
-
     }
 }
 
@@ -46,10 +57,11 @@
     line-height: calc(24/20);
     color: $green;
     border-bottom: rem(1) solid $green-accent;
+    padding-bottom: rem(3);
 }
 
 .information__text {
-    margin-top: rem(8);
+    margin-top: rem(7);
     font-family: $base-font-family;
     font-weight: $regular;
     font-size: rem(16);

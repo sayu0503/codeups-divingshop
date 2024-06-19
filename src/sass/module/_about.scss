@@ -9,14 +9,14 @@
 }
 .about__inner {
     max-width: rem(1130);
-    padding-left: rem(25);
-    padding-right: rem(25);
+    padding-left: rem(14);
+    padding-right: rem(16);
     margin-inline: auto;
 }
 
 .about__image-container {
       position: relative;
-      margin-top: rem(24);
+      margin-top: rem(28);
       height: rem(120);
       width: rem(345);
      @include mq(md){
@@ -44,8 +44,8 @@
      max-width: rem(281);
      width: 100%;
      z-index: 8;
-     top: rem(20);
-     left: rem(40);
+     top: rem(26);
+     left: rem(63);
      @include mq(md){
         max-width: rem(880);
         width: 100%;
@@ -57,7 +57,7 @@
 .about__image3 {
     @include mq(md){
         position: absolute;
-        right: calc(50% - min(50vw,850px));
+        right: calc(50% - min(50vw,770px));
         bottom: rem(-650);
         width: rem(194);
         z-index: 9;
@@ -80,7 +80,7 @@
      font-size: rem(40);
      line-height: calc(40/40);
      color: $green-accent;
-     margin-top: rem(120);
+     margin-top: rem(132);
      @include mq(md){
          margin-top: 0;
          font-size: rem(80);

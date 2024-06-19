@@ -42,6 +42,7 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
    var swiper = new Swiper(".js-campaign-swiper", {
     slidesPerView: 1,
     spaceBetween: 24,
+    loop: true,
     centeredSlides: true,
     width: 280,
     breakpoints: {

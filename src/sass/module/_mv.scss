@@ -14,7 +14,7 @@
 .mv__title-wrap {
     position: absolute;
     z-index: 10;
-    top: 50%;
+    top: 45.5%;
     left: 50%;
     width: 100%;
     transform: translate(-50%,-50%);
@@ -29,6 +29,7 @@
     line-height: 1;
     letter-spacing: 0.54em;
     color: $white;
+    margin-left: rem(19);
     @include mq(md){
         font-size: rem(80);
         line-height: calc(100/80);
@@ -41,5 +42,5 @@
     font-size: rem(20);
     line-height: 1;
     color: $white;
-    margin-top: rem(20);
+    margin-top: rem(12);
 }
