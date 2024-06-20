@@ -11,7 +11,6 @@
 .footer-nav__flex {
     display: flex;
     flex-direction: column;
-    gap: rem(16);
     @include mq(md){
         flex-direction: initial;
         padding-bottom: rem(40);
@@ -61,7 +60,7 @@
 }
 
 .footer-nav__lists {
-    margin-left: rem(18);
+    margin-left: rem(24);
 }
 
 .footer-nav__list {

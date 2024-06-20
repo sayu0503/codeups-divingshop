@@ -8,13 +8,14 @@
 //ボタンの基本コード
 .button {
     position: relative;
+    right: rem(3);
     z-index: 3;
     border: rem(1) solid $green-accent;
     color: $green-accent;
     display: block;
     font-weight: $regular;
     max-width: rem(202);
-    padding: rem(15) rem(40) rem(15) rem(38);
+    padding: rem(15) rem(40) rem(15) rem(42);
     margin-inline: auto;
     z-index: 1;
     font-size: rem(14);
@@ -24,7 +25,7 @@
 .button.slide::before {
     content: "";
       position: absolute;
-      inset: rem(2) rem(-2) rem(-6) rem(1);
+      inset: rem(2) rem(-5) rem(-6) rem(3);
       border: 1px solid $green-accent;
       z-index: -1;
 }

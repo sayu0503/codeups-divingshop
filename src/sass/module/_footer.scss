@@ -11,7 +11,7 @@
 }
 
 .footer__inner {
-    padding: 0 $padding-sp;
+    padding: 0 rem(15);
     @include mq(md){
         max-width: rem(1058);
         margin-inline: auto;
@@ -34,7 +34,7 @@
 
 .footer__icon-list {
     display: flex;
-    margin-top: rem(18);
+    margin-top: rem(17);
     @include mq(md){
     padding-top: rem(20);
     margin-left: rem(40);
