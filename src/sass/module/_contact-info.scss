@@ -4,10 +4,21 @@
     position: relative;
 }
 
+.contact-info__inner {
+    max-width: rem(1130);
+    padding-left: rem(40);
+    padding-right: rem(40);
+    margin-inline: auto;
+    @include mq(md){
+        padding-left: rem(25);
+        padding-right: rem(25);
+    }
+}
+
 .contact-info__img-fish {
     position: absolute;
     width: rem(109);
-    top: rem(-20);
+    top: rem(-26);
     right: rem(15);
     @include mq(md){
     top: rem(-50);
