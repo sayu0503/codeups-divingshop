@@ -9,7 +9,7 @@
     width: 100%;
     height: 100vh;
     background-color: $green-accent;
-    padding-top: rem(100);
+    padding-top: rem(104);
 }
 
 .sp-nav.is-active {
@@ -17,7 +17,8 @@
 }
 
 .sp-nav__inner  {
-    padding: $padding-sp;
+    padding-right: rem(15);
+    padding-left: rem(15);
     display: flex;
 }
 
@@ -30,8 +31,8 @@
     width: rem(168);
 }
 
-.sp-nav__container:not(:first-child) {
-     margin-left: rem(16);
+.sp-nav__container {
+    flex-grow: 1;
 }
 
 .sp-nav__wrapper {
@@ -45,7 +46,7 @@
     line-height: calc(18/16);
     color: $white;
     display: flex;
-    margin-left: rem(4);
+    flex-grow: 1;
 }
 
 .sp-nav__title::before {
@@ -58,8 +59,12 @@
     vertical-align: middle;
 }
 
+.sp-nav__title a {
+    margin-left: rem(4);
+    flex-grow: 1;
+}
 .sp-nav__lists {
-    margin-left: rem(18);
+    margin-left: rem(22);
 }
 
 .sp-nav__list {

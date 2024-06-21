@@ -19,6 +19,11 @@
     width: 100%;
     transform: translate(-50%,-50%);
     text-align: center;
+    @include mq(md){
+        top: 50%;
+        left: 50%;
+
+    }
 }
 
 .mv__title {
@@ -33,6 +38,7 @@
     @include mq(md){
         font-size: rem(80);
         line-height: calc(100/80);
+        margin-left: rem(44);
     }
 }
 
@@ -42,5 +48,5 @@
     font-size: rem(20);
     line-height: 1;
     color: $white;
-    margin-top: rem(12);
+    margin-top: rem(5);
 }

@@ -5,10 +5,14 @@
     padding-left: rem(15);
     margin-top: rem(29);
     @include mq(md){
-       padding-left: rem(160);
+       padding-left: rem(182);
+       margin-top: rem(42);
    }
 }
 
 .campaign__btn {
-    margin-top: 30px;
+    margin-top: rem(30);
+    @include mq(md){
+        margin-top: rem(68);
+    }
 }

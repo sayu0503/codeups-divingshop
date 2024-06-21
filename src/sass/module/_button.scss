@@ -15,11 +15,14 @@
     display: block;
     font-weight: $regular;
     max-width: rem(202);
-    padding: rem(15) rem(40) rem(15) rem(42);
+    padding: rem(15) rem(40) rem(15) rem(41);
     margin-inline: auto;
     z-index: 1;
     font-size: rem(14);
     letter-spacing: 0.045em;
+    @include mq(md){
+        padding-left: rem(44);
+    }
 }
 
 .button.slide::before {

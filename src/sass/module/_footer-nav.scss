@@ -28,8 +28,12 @@
     width: rem(168);
 }
 
+.footer-nav__container {
+    flex-grow: 1;
+}
+
 .footer-nav__container:not(:first-child) {
-     margin-left: 0;
+     margin-left: rem(16);
      @include mq(md){
      margin-left: rem(120);
      }
@@ -40,13 +44,14 @@
 }
 
 .footer-nav__title {
+    position: relative;
     font-family: $base-font-family;
     font-weight: $bold;
     font-size: rem(16);
     line-height: calc(18/16);
     color: $white;
     display: flex;
-    margin-left: rem(4);
+    flex-grow: 1;
 }
 
 .footer-nav__title::before {
@@ -57,6 +62,11 @@
     height: rem(18);
     background-size: contain;
     vertical-align: middle;
+}
+
+.footer-nav__title a {
+    margin-left: rem(4);
+    flex-grow: 1;
 }
 
 .footer-nav__lists {

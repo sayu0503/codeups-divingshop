@@ -1,8 +1,11 @@
 @use "global" as *;
 
 .information {
-    padding: rem(80) 0 rem(84);
+    padding: rem(80) 0 rem(86);
     background-color: $green2;
+    @include mq(md){
+        padding: rem(100) 0 rem(74);
+    }
 }
 
 .information__inner {
@@ -20,10 +23,15 @@
 .information__contents {
     @include mq(md){
         display: flex;
-        align-items: center;
-        margin-top: rem(40);
+        margin-top: rem(18);
     }
 
+}
+
+.information__section-header {
+    @include mq(md){
+        padding-right: rem(4);
+    }
 }
 
 .information__image {
@@ -47,6 +55,7 @@
         margin-left: rem(48);
         max-width: rem(492);
         width: 100%;
+        padding-top: rem(85);
     }
 }
 
@@ -58,6 +67,9 @@
     color: $green;
     border-bottom: rem(1) solid $green-accent;
     padding-bottom: rem(3);
+    @include mq(md){
+        font-size: rem(24);
+    }
 }
 
 .information__text {
@@ -67,6 +79,10 @@
     font-size: rem(16);
     line-height: calc(24/16);
     color: $green;
+    @include mq(md){
+        padding-right: rem(2);
+        margin-top: rem(8);
+    }
 }
 
 .information__btn {
