@@ -5,7 +5,7 @@
     @include mq(md){
         background-image: url(../images/common/blog_img_bg.jpg);
         background-repeat: no-repeat;
-        background-size: 100% 60%;
+        background-size: 100% 60.5%;
         position: relative;
     }    }
 
@@ -14,7 +14,7 @@
     @include mq(md){
         position: absolute;
         top: rem(24);
-        left: calc(50% - min(50vw,700px));
+        left: calc(50% - min(50vw,621px));
         width: rem(437);
         height: auto;
     }

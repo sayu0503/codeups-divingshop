@@ -4,7 +4,7 @@
     padding: rem(80) 0 rem(86);
     background-color: $green2;
     @include mq(md){
-        padding: rem(100) 0 rem(74);
+        padding: rem(100) 0 rem(77);
     }
 }
 
@@ -14,8 +14,8 @@
     padding-right: rem(15);
     margin-inline: auto;
     @include mq(md){
-    padding-left: rem(25);
-    padding-right: rem(25);
+    padding-left: rem(22);
+    padding-right: rem(29);
   }
 }
 
@@ -23,7 +23,7 @@
 .information__contents {
     @include mq(md){
         display: flex;
-        margin-top: rem(18);
+        margin-top: rem(14);
     }
 
 }
@@ -86,7 +86,7 @@
 }
 
 .information__btn {
-    margin-top: rem(40);
+    margin-top: rem(41);
 }
 
 
