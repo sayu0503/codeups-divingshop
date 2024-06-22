@@ -21,17 +21,17 @@
     top: rem(-26);
     right: rem(15);
     @include mq(md){
-    top: rem(-40);
-    right: calc(50% - min(50vw,670px));
-    width: rem(301);
-    height: auto;
-  }
+        top: rem(-40);
+        right: calc(50% - min(50vw,670px));
+        width: rem(301);
+        height: auto;
+    }
 }
 
 .contact-info__contents {
     @include mq(md){
-    display: flex;
-    padding: rem(79) 0 rem(74);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+        display: flex;
+        padding: rem(79) 0 rem(74);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
     }
 }

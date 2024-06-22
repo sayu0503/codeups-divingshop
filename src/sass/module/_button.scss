@@ -24,12 +24,11 @@
 
 .button.slide::before {
     content: "";
-      position: absolute;
-      inset: rem(2) rem(-5) rem(-6) rem(3);
-      border: 1px solid $green-accent;
-      z-index: -1;
+    position: absolute;
+    inset: rem(2) rem(-5) rem(-6) rem(3);
+    border: 1px solid $green-accent;
+    z-index: -1;
 }
-
 
 //矢印追加
 .button span {
@@ -39,19 +38,19 @@
  }
 
  .button span::after {
-     content: "";
-     position: absolute;
-     top: -14%;
-     left: 108%;
-     bottom: 0;
-     width: rem(40);
-     height: rem(8);
-     margin: auto;
-     border-right: rem(1) solid $white;
-     border-bottom: rem(1) solid $white;
-     transform: skew(45deg);
-     transition: .2s;
-     box-sizing: border-box;
+    content: "";
+    position: absolute;
+    top: -14%;
+    left: 108%;
+    bottom: 0;
+    width: rem(40);
+    height: rem(8);
+    margin: auto;
+    border-right: rem(1) solid $white;
+    border-bottom: rem(1) solid $white;
+    transform: skew(45deg);
+    transition: .2s;
+    box-sizing: border-box;
   }
 
   .button span:hover::after {

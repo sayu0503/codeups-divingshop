@@ -5,8 +5,7 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
   $(".js-hamburger").click(function () {
     if($(".js-hamburger").hasClass("is-active")) {
       $(".js-hamburger").removeClass("is-active");
-    // $("html").toggleClass("is-fixed");
-    $(".js-sp-nav").fadeOut(300);
+      $(".js-sp-nav").fadeOut(300);
   } else{
   $(".js-hamburger").addClass("is-active");
   $(".js-sp-nav").fadeIn(300);
@@ -159,7 +158,6 @@ $(function () {
       pageTop.css({
         position: "absolute",
         bottom: footHeight + 16, // 余裕を持たせるために16ピクセル追加
-        
       });
     } else {
       pageTop.css({
@@ -168,10 +166,9 @@ $(function () {
       });
     }
   });
-
 });
 
-//背景色の後に画像やテキストが表示されるエフェクト
+  //背景色の後に画像やテキストが表示されるエフェクト
   //要素の取得とスピードの設定
   var box = $('.colorbox'),
   speed = 700;

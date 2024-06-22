@@ -28,25 +28,25 @@
  }
 
  .hamburger span:nth-child(2) {
-     top: 50%;
+    top: 50%;
  }
 
  .hamburger span:nth-child(3) {
-     top: 85%;
+    top: 85%;
  }
 
  .hamburger.is-active span:nth-child(1) {
-     top: 50%;
-     transform: rotate(38deg);
-     width: rem(40);
+    top: 50%;
+    transform: rotate(38deg);
+    width: rem(40);
   }
 
   .hamburger.is-active span:nth-child(2) {
-      opacity: 0;
+    opacity: 0;
   }
 
   .hamburger.is-active span:nth-child(3) {
-      top: 50%;
-     transform: rotate(-38deg);
-     width: rem(40);
+    top: 50%;
+    transform: rotate(-38deg);
+    width: rem(40);
   }

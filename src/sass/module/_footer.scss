@@ -35,8 +35,8 @@
     display: flex;
     margin-top: rem(17);
     @include mq(md){
-    padding-top: rem(20);
-    margin-left: rem(40);
+        padding-top: rem(20);
+        margin-left: rem(40);
     }
 }
 

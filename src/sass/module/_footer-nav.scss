@@ -20,7 +20,7 @@
 
 .footer-nav__flex:not(:first-child){
     @include mq(md){
-     margin-left: rem(112);
+        margin-left: rem(112);
     }
 }
 
@@ -35,8 +35,8 @@
 .footer-nav__container:not(:first-child) {
      margin-left: rem(16);
      @include mq(md){
-     margin-left: rem(62);
-     }
+        margin-left: rem(62);
+    }
 }
 
 .footer-nav__wrapper {

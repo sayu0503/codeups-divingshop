@@ -14,9 +14,9 @@
     padding-right: rem(15);
     margin-inline: auto;
     @include mq(md){
-    padding-left: rem(22);
-    padding-right: rem(29);
-  }
+        padding-left: rem(22);
+        padding-right: rem(29);
+    }
 }
 
 
@@ -25,7 +25,6 @@
         display: flex;
         margin-top: rem(14);
     }
-
 }
 
 .information__section-header {
@@ -35,10 +34,10 @@
 }
 
 .information__image {
-   margin-top: rem(27);
-   position: relative;
-   width: 100%;
-   margin: 30px auto 0;
+    margin-top: rem(27);
+    position: relative;
+    width: 100%;
+    margin: rem(30) auto 0;
 }
 
 .information__image img {
