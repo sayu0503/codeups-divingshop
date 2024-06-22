@@ -152,17 +152,19 @@ $(function () {
     let scrollHeight = $(document).height();
     let scrollPosition = $(window).height() + $(window).scrollTop();
     let footHeight = $("footer").innerHeight();
+    var mediaQuery = window.matchMedia("(min-width: 768px)");
 
     if (scrollHeight - scrollPosition <= footHeight) {
       // ページトップボタンがフッター手前に来たらpositionとfixedからabsoluteに変更
       pageTop.css({
         position: "absolute",
-        bottom: footHeight + 20, // 余裕を持たせるために10ピクセル追加
+        bottom: footHeight + 16, // 余裕を持たせるために16ピクセル追加
+        
       });
     } else {
       pageTop.css({
         position: "fixed",
-        bottom: "20px",
+        bottom: "16px",
       });
     }
   });

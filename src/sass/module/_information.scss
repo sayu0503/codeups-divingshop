@@ -4,7 +4,7 @@
     padding: rem(80) 0 rem(86);
     background-color: $green2;
     @include mq(md){
-        padding: rem(100) 0 rem(77);
+        padding: rem(98) 0 rem(77);
     }
 }
 
@@ -69,6 +69,7 @@
     padding-bottom: rem(3);
     @include mq(md){
         font-size: rem(24);
+        padding-bottom: rem(6);
     }
 }
 
@@ -87,6 +88,9 @@
 
 .information__btn {
     margin-top: rem(41);
+    @include mq(md){
+        margin-top: rem(39);
+    }
 }
 
 

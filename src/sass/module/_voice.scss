@@ -40,7 +40,7 @@
 
 .voice__contents {
     display: grid;
-    gap: rem(38);
+    gap: rem(41);
     margin-top: rem(44);
     grid-template-columns: repeat(1, 1fr);
     @include mq(md){

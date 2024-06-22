@@ -34,7 +34,7 @@
      @include mq(md){
          max-width: rem(400);
          width: 100%;
-         top: rem(4);
+         top: rem(2);
          left: rem(11);
          bottom: 0;
     }
@@ -50,7 +50,7 @@
      @include mq(md){
         max-width: rem(880);
         width: 100%;
-        top: rem(86);
+        top: rem(82);
         left: calc(50% - min(50vw, 226px));
         bottom: 0;
      }
@@ -60,7 +60,7 @@
     @include mq(md){
         position: absolute;
         right: calc(50% - min(50vw,638px));
-        bottom: rem(-636);
+        bottom: rem(-633);
         width: rem(194);
         z-index: 9;
     }
@@ -84,7 +84,7 @@
      color: $green-accent;
      margin-top: rem(132);
      @include mq(md){
-         margin-top: 0;
+         margin-top: rem(-2);
          font-size: rem(80);
          line-height: calc(100/80);
          color: $white;
@@ -101,7 +101,7 @@
      @include mq(md){
          max-width: rem(400);
          margin-left: rem(40);
-         margin-top: 0;
+         margin-top: rem(-2);
          width: 100%;
          color: $white;
      }
