@@ -108,6 +108,6 @@
 .voice-card__category {
     @include mq(md){
         flex-grow: 1;
-        margin-left: rem(99);
+        margin-left: rem(70);
     }
 }

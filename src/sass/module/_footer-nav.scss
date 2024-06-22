@@ -14,7 +14,7 @@
     @include mq(md){
         flex-direction: initial;
         padding-bottom: rem(40);
-        gap: rem(112);
+        gap: rem(117);
     }
 }
 
@@ -35,7 +35,7 @@
 .footer-nav__container:not(:first-child) {
      margin-left: rem(16);
      @include mq(md){
-     margin-left: rem(120);
+     margin-left: rem(62);
      }
 }
 

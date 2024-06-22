@@ -157,12 +157,12 @@ $(function () {
       // ページトップボタンがフッター手前に来たらpositionとfixedからabsoluteに変更
       pageTop.css({
         position: "absolute",
-        bottom: footHeight + 17, // 余裕を持たせるために10ピクセル追加
+        bottom: footHeight + 20, // 余裕を持たせるために10ピクセル追加
       });
     } else {
       pageTop.css({
         position: "fixed",
-        bottom: "17px",
+        bottom: "20px",
       });
     }
   });

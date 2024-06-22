@@ -3,10 +3,10 @@
 .access {
     text-align: center;
     @include mq(md){
-        width: 51%;
-        padding-right: rem(82);
+        width: 53%;
+        padding-left: rem(40);
+        padding-right: rem(70);
         border-right: rem(1) solid $green-accent;
-        padding-left: rem(50);
     }
 }
 
@@ -22,6 +22,7 @@
  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
  @include mq(md){
     filter: none;
+    padding-bottom: rem(5);
  }
 }
 
@@ -70,7 +71,7 @@
     aspect-ratio: 295 / 160;
     margin-top: rem(16);
     @include mq(md){
-        aspect-ratio: 273 / 148;
+        aspect-ratio: 273 / 145;
         margin-top: 0;
         margin-left: rem(21);
     }

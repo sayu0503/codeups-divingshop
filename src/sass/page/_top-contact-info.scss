@@ -3,6 +3,6 @@
 .top-contact-info {
     margin-top: rem(80);
     @include mq(md){
-        margin-top: rem(100);
+        margin: rem(142) 0 rem(162);
     }
 }

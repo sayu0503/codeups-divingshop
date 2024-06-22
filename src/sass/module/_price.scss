@@ -30,6 +30,12 @@
     }
 }
 
+.price__section-header {
+    @include mq(md){
+        margin-left: rem(-6);
+    }
+}
+
 .price__contents {
     display: flex;
     flex-direction: column-reverse;

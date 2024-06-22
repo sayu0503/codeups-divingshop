@@ -2,4 +2,7 @@
 
 .top-footer-nav {
     margin-top: rem(39);
+    @include mq(md){
+        margin-top: rem(22);
+    }
 }
