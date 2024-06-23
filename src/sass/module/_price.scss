@@ -16,13 +16,14 @@
     @include mq(md){
         padding-left: rem(25);
         padding-right: rem(25);
+        position: relative;
     }
 }
 
 .price__img-fish {
     @include mq(md){
         position: absolute;
-        bottom: rem(60);
+        bottom: rem(-50);
         left: rem(100);
         width: rem(437);
         height: auto;

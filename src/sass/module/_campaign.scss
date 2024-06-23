@@ -5,14 +5,14 @@
     padding-left: rem(15);
     margin-top: rem(29);
     @include mq(md){
-       padding-left: rem(182);
-       margin-top: rem(41);
+       padding-left: rem(180);
+       margin-top: rem(40);
    }
 }
 
 .campaign__btn {
     margin-top: rem(30);
     @include mq(md){
-        margin-top: rem(69);
+        margin-top: rem(72);
     }
 }

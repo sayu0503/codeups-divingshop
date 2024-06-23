@@ -52,15 +52,22 @@
 }
 
 .footer__copyright {
+    text-align: center;
+    margin-top: rem(-7);
+    @include mq(md){
+    }
+}
+
+.footer__copyright small{
     font-family: $third-font-family;
     font-weight: $regular;
     font-size: rem(12);
     line-height: calc(18/12);
     color: $white;
-    text-align: center;
-    letter-spacing: 0.082em;
     @include mq(md){
         letter-spacing: 0.17em;
         margin-top: rem(2);
+        font-size: rem(14);
+        line-height: rem(14/18);
     }
 }

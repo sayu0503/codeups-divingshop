@@ -20,6 +20,7 @@
     z-index: 1;
     font-size: rem(14);
     letter-spacing: 0.045em;
+    font-family: $third-font-family;
 }
 
 .button.slide::before {
@@ -51,6 +52,9 @@
     transform: skew(45deg);
     transition: .2s;
     box-sizing: border-box;
+    @include mq(md){
+        left: 98%;
+    }
   }
 
   .button span:hover::after {

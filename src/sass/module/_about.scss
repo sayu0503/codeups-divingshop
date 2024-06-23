@@ -114,4 +114,9 @@
      }
 }
 
-
+.about__sp-none {
+    display: none;
+    @include mq(md){
+        display: block;
+    }
+}
