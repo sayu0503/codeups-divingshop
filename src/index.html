@@ -24,7 +24,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
   <!-- css -->
   <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-  <link rel="stylesheet" type="text/css" href="css/5-3-1.css">
   <link rel="stylesheet" href="./assets/css/style.css" />
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -140,6 +139,7 @@
                 <dt class="sp-nav__title">
                   <a href="#">私たちについて</a>
                 </dt>
+                <dd></dd>
               </dl>
               </div>
               <div class="sp-nav__group">
@@ -165,6 +165,7 @@
                   <dt class="sp-nav__title">
                     <a href="#">ブログ</a>
                   </dt>
+                  <dd></dd>
                 </dl>
               </div>
             </div>
@@ -176,6 +177,7 @@
                   <dt class="sp-nav__title">
                     <a href="#">お客様の声</a>
                   </dt>
+                  <dd></dd>
                 </dl>
                 <dl class="sp-nav__wrapper">
                   <dt class="sp-nav__title">
@@ -201,21 +203,25 @@
                   <dt class="sp-nav__title">
                     <a href="#">よくある質問</a>
                   </dt>
+                  <dd></dd>
                 </dl>
                 <dl class="sp-nav__wrapper">
                   <dt class="sp-nav__title">
                     <a href="#">プライバシー<br class="u-mobile">ポリシー</a>
                   </dt>
+                  <dd></dd>
                 </dl>
                 <dl class="sp-nav__wrapper">
                   <dt class="sp-nav__title">
                     <a href="#">利用規約</a>
                   </dt>
+                  <dd></dd>
                 </dl>
                 <dl class="sp-nav__wrapper">
                   <dt class="sp-nav__title">
-                    <a href="#">おい問わ合せ</a>
+                    <a href="#">お問い合わせ</a>
                   </dt>
+                  <dd></dd>
                 </dl>
               </div>
           </div>
@@ -233,25 +239,25 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <picture>
-                <source srcset="./assets/images/common/mv_img_1.jpg" alt="ウミガメが泳いでいる様子" media="(min-width: 768px)">
+                <source srcset="./assets/images/common/mv_img_1.jpg" media="(min-width: 768px)">
                 <img src="./assets/images/common/mv_img_1-sp.jpg" alt="ウミガメが泳いでいる様子">
              </picture>
             </div>
             <div class="swiper-slide">
               <picture>
-                <source srcset="./assets/images/common/mv_img_2.jpg" alt="ウミガメの近くを泳ぐ２人のダイバー" media="(min-width: 768px)">
+                <source srcset="./assets/images/common/mv_img_2.jpg" media="(min-width: 768px)">
                 <img src="./assets/images/common/mv_img_2-sp.jpg" alt="ウミガメの近くを泳ぐ２人のダイバー">
              </picture>
             </div>
             <div class="swiper-slide">
               <picture>
-                <source srcset="./assets/images/common/mv_img_3.jpg" alt="太陽が照り付ける海と船" media="(min-width: 768px)">
+                <source srcset="./assets/images/common/mv_img_3.jpg" media="(min-width: 768px)">
                 <img src="./assets/images/common/mv_img_3-sp.jpg" alt="太陽が照り付ける海と船">
              </picture>
             </div>
             <div class="swiper-slide">
               <picture>
-                <source srcset="./assets/images/common/mv_img_4.jpg" alt="綺麗な海と浜辺" media="(min-width: 768px)">
+                <source srcset="./assets/images/common/mv_img_4.jpg" media="(min-width: 768px)">
                 <img src="./assets/images/common/mv_img_4-sp.jpg" alt="綺麗な海と浜辺">
              </picture>
             </div>
@@ -272,7 +278,7 @@
           <p class="section-header__subtitle">キャンペーン</p>
         </div>
         <div class="campaign__container">
-        <div #swiperRef="" class="swiper js-campaign-swiper">
+        <div class="swiper js-campaign-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <a href="#" class="campaign-card">
@@ -383,7 +389,7 @@
         <p class="about__title">Dive into<br>the Ocean</p>
         <div class="about__group">
         <p class="about__text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br>
-          ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+          ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキスト<span class="about__sp-none">が入ります。</span></p>
           <div class="about__btn">
             <a href="#" class="button slide"><span>View&nbsp;more</span></a>
           </div>
@@ -547,72 +553,72 @@
         <div class="price__content">
           <dl class="price__list">
             <dt class="price__term">ライセンス講習</dt>
-            <div class="price__wrap">
-              <dd class="price__description">オープンウォーターダイバーコース</dd>
-              <dd class="price__description">¥50,000</dd>
-            </div>
-            <div class="price__wrap">
-              <dd class="price__description">アドバンスドオープンウォーターコース</dd>
-              <dd class="price__description">¥60,000</dd>
-            </div>
-            <div class="price__wrap">
-              <dd class="price__description">レスキュー＋EFRコース</dd>
-              <dd class="price__description">¥70,000</dd>
-            </div>
+            <dd class="price__wrap">
+              <p class="price__description">オープンウォーターダイバーコース</p>
+              <p class="price__description">¥50,000</p>
+            </dd>
+            <dd class="price__wrap">
+              <p class="price__description">アドバンスドオープンウォーターコース</p>
+              <p class="price__description">¥60,000</p>
+            </dd>
+            <dd class="price__wrap">
+              <p class="price__description">レスキュー＋EFRコース</p>
+              <p class="price__description">¥70,000</p>
+            </dd>
           </dl>
           <dl class="price__list">
             <dt class="price__term">体験ダイビング</dt>
-            <div class="price__wrap">
-              <dd class="price__description">ビーチ体験ダイビング(半日)</dd>
-              <dd class="price__description">¥7,000</dd>
-            </div>
-            <div class="price__wrap">
-              <dd class="price__description">ビーチ体験ダイビング(1日)</dd>
-              <dd class="price__description">¥14,000</dd>
-            </div>
-            <div class="price__wrap">
-              <dd class="price__description">ボート体験ダイビング(半日)</dd>
-              <dd class="price__description">¥10,000</dd>
-            </div>
-            <div class="price__wrap">
-              <dd class="price__description">ボート体験ダイビング(1日)</dd>
-              <dd class="price__description">¥18,000</dd>
-            </div>
+            <dd class="price__wrap">
+              <p class="price__description">ビーチ体験ダイビング(半日)</p>
+              <p class="price__description">¥7,000</p>
+            </dd>
+            <dd class="price__wrap">
+              <p class="price__description">ビーチ体験ダイビング(1日)</p>
+              <p class="price__description">¥14,000</p>
+            </dd>
+            <dd class="price__wrap">
+              <p class="price__description">ボート体験ダイビング(半日)</p>
+              <p class="price__description">¥10,000</p>
+            </dd>
+            <dd class="price__wrap">
+              <p class="price__description">ボート体験ダイビング(1日)</p>
+              <p class="price__description">¥18,000</p>
+            </dd>
           </dl>
           <dl class="price__list">
             <dt class="price__term">ファンダイビング</dt>
-            <div class="price__wrap">
-              <dd class="price__description">ビーチダイビング(2ダイブ)</dd>
-              <dd class="price__description">¥14,000</dd>
-            </div>
-            <div class="price__wrap">
-              <dd class="price__description">ボートダイビング(2ダイブ)</dd>
-              <dd class="price__description">¥18,000</dd>
-            </div>
-            <div class="price__wrap">
-              <dd class="price__description">スペシャルダイビング(2ダイブ)</dd>
-              <dd class="price__description">¥24,000</dd>
-            </div>
-            <div class="price__wrap">
-              <dd class="price__description">ナイトダイビング(1ダイブ)</dd>
-              <dd class="price__description">¥10,000</dd>
-            </div>
+            <dd class="price__wrap">
+              <p class="price__description">ビーチダイビング(2ダイブ)</p>
+              <p class="price__description">¥14,000</p>
+            </dd>
+            <dd class="price__wrap">
+              <p class="price__description">ボートダイビング(2ダイブ)</p>
+              <p class="price__description">¥18,000</p>
+            </dd>
+            <dd class="price__wrap">
+              <p class="price__description">スペシャルダイビング(2ダイブ)</p>
+              <p class="price__description">¥24,000</p>
+            </dd>
+            <dd class="price__wrap">
+              <p class="price__description">ナイトダイビング(1ダイブ)</p>
+              <p class="price__description">¥10,000</p>
+            </dd>
           </dl>
           <dl class="price__list">
             <dt class="price__term">スペシャルダイビング</dt>
-            <div class="price__wrap">
-              <dd class="price__description">貸切ダイビング(2ダイブ)</dd>
-              <dd class="price__description">¥24,000</dd>
-            </div>
-            <div class="price__wrap">
-              <dd class="price__description">1日ダイビング(3ダイブ)</dd>
-              <dd class="price__description">¥32,000</dd>
-            </div>
+            <dd class="price__wrap">
+              <p class="price__description">貸切ダイビング(2ダイブ)</p>
+              <p class="price__description">¥24,000</p>
+            </dd>
+            <dd class="price__wrap">
+              <p class="price__description">1日ダイビング(3ダイブ)</p>
+              <p class="price__description">¥32,000</p>
+            </dd>
           </dl>
         </div>
         <div class="price__image colorbox">
           <picture>
-            <source srcset="./assets/images/common/price_img_1.jpg" alt="赤い魚の群れ" media="(min-width: 768px)">
+            <source srcset="./assets/images/common/price_img_1.jpg" media="(min-width: 768px)">
             <img src="./assets/images/common/price_img_2.jpg" alt="ウミガメが泳いでいる様子">
           </picture>
         </div>
@@ -706,6 +712,7 @@
               <dt class="footer-nav__title">
                 <a href="#">私たちについて</a>
               </dt>
+              <dd></dd>
             </dl>
             </div>
             <div class="footer-nav__group">
@@ -731,6 +738,7 @@
                 <dt class="footer-nav__title">
                   <a href="#">ブログ</a>
                 </dt>
+                <dd></dd>
               </dl>
             </div>
           </div>
@@ -742,6 +750,7 @@
                 <dt class="footer-nav__title">
                   <a href="#">お客様の声</a>
                 </dt>
+                <dd></dd>
               </dl>
               <dl class="footer-nav__wrapper">
                 <dt class="footer-nav__title">
@@ -767,29 +776,34 @@
                 <dt class="footer-nav__title">
                   <a href="#">よくある質問</a>
                 </dt>
+                <dd></dd>
               </dl>
               <dl class="footer-nav__wrapper">
                 <dt class="footer-nav__title">
                   <a href="#">プライバシー<br class="u-mobile">ポリシー</a>
                 </dt>
+                <dd></dd>
               </dl>
               <dl class="footer-nav__wrapper">
                 <dt class="footer-nav__title">
                   <a href="#">利用規約</a>
                 </dt>
+                <dd></dd>
               </dl>
               <dl class="footer-nav__wrapper">
                 <dt class="footer-nav__title">
-                  <a href="#">おい問わ合せ</a>
+                  <a href="#">お問い合わせ</a>
                 </dt>
+                <dd></dd>
               </dl>
             </div>
          </div>
         </div>
       </nav>
+
     </div>
     <div class="footer__copyright">
-      <small>Copyright &copy; 2021 - 2023 CodeUps LLC. All Rights Reserved.</small>
+      <small>Copyright © 2021 - 2023 CodeUps LLC. All Rights Reserved.</small>
     </div>
   </footer>
   <div class="page-top-button js-page-top"></div>
