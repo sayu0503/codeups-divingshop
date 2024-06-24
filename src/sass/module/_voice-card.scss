@@ -38,6 +38,9 @@
     line-height: calc(18/12);
     color: $green;
     margin-top: rem(13);
+    @include mq(md){
+        line-height: 2;
+    }
 }
 
 .voice-card__label {
@@ -66,7 +69,7 @@
     margin-top: rem(3);
     @include mq(md){
         font-size: rem(24);
-        margin-top: rem(8);
+        margin-top: rem(4);
     }
 }
 
@@ -107,6 +110,6 @@
 
 .voice-card__body {
     @include mq(md){
-    padding: 0 rem(9);
+    padding: 0 rem(8);
   }
 }

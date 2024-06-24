@@ -15,11 +15,10 @@
     display: block;
     font-weight: $regular;
     max-width: rem(202);
-    padding: rem(15) rem(40) rem(15) rem(41);
+    padding: rem(15) rem(40);
     margin-inline: auto;
     z-index: 1;
     font-size: rem(14);
-    letter-spacing: 0.045em;
     font-family: $third-font-family;
 }
 
@@ -41,7 +40,7 @@
  .button span::after {
     content: "";
     position: absolute;
-    top: -14%;
+    top: -20%;
     left: 108%;
     bottom: 0;
     width: rem(40);
@@ -52,13 +51,10 @@
     transform: skew(45deg);
     transition: .2s;
     box-sizing: border-box;
-    @include mq(md){
-        left: 98%;
-    }
   }
 
-  .button span:hover::after {
-     border-color: $green-accent;
+  .button:hover span::after {
+    border-color: $green-accent;
   }
 
 //スライド

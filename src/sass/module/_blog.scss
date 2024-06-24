@@ -21,7 +21,7 @@
 }
 
 .blog__contents {
-    margin-top: rem(28);
+    margin-top: rem(27);
     display: grid;
     gap: rem(40);
     grid-template-columns: repeat(auto-fit, minmax(rem(333), 1fr));
@@ -31,8 +31,8 @@
 }
 
 .blog__btn {
-    margin-top: rem(39);
+    margin-top: rem(41);
     @include mq(md){
-        margin-top: rem(80);
+        margin-top: rem(82);
     }
 }

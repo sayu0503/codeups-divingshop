@@ -18,10 +18,10 @@
 .contact-info__img-fish {
     position: absolute;
     width: rem(109);
-    top: rem(-26);
-    right: rem(15);
+    top: rem(-27);
+    right: calc(50% - min(50vw,172px));
     @include mq(md){
-        top: rem(-40);
+        top: rem(-43);
         right: calc(50% - min(50vw,670px));
         width: rem(301);
         height: auto;

@@ -98,25 +98,25 @@
      color: $green;
      margin-top: rem(16);
      @include mq(md){
-         max-width: rem(400);
-         margin-left: rem(40);
-         margin-top: rem(-2);
-         width: 100%;
-         color: $white;
+        max-width: rem(400);
+        margin-left: 41px;
+        margin-top: -3px;
+        width: 100%;
+        color: $white;
      }
  }
 
 .about__btn {
      margin-top: rem(25);
      @include mq(md){
-       margin-top: rem(39);
+       margin-top: rem(41);
        margin-left: rem(42);
      }
 }
 
-.about__sp-none {
-    display: none;
+.about__sp-visibility {
+    visibility: hidden;
     @include mq(md){
-        display: block;
+        visibility: visible;
     }
 }

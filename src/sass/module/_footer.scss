@@ -3,7 +3,7 @@
 .footer {
     height: rem(739);
     background-color: $green-accent;
-    padding: rem(48) 0;
+    padding: rem(47) 0;
     @include mq(md){
         height: rem(559);
         padding: rem(81) 0;
@@ -55,6 +55,7 @@
     text-align: center;
     margin-top: rem(-7);
     @include mq(md){
+    margin-top: rem(-4);
     }
 }
 
@@ -65,7 +66,6 @@
     line-height: calc(18/12);
     color: $white;
     @include mq(md){
-        letter-spacing: 0.17em;
         margin-top: rem(2);
         font-size: rem(14);
         line-height: rem(14/18);
