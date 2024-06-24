@@ -54,9 +54,6 @@
 .footer__copyright {
     text-align: center;
     margin-top: rem(-7);
-    @include mq(md){
-    margin-top: rem(-4);
-    }
 }
 
 .footer__copyright small{
@@ -66,7 +63,7 @@
     line-height: calc(18/12);
     color: $white;
     @include mq(md){
-        margin-top: rem(2);
+        margin-top: rem(8);
         font-size: rem(14);
         line-height: rem(14/18);
     }

@@ -3,7 +3,7 @@
 .campaign__container {
     position: relative;
     padding-left: rem(15);
-    margin-top: rem(29);
+    margin-top: rem(27);
     @include mq(md){
        padding-left: rem(180);
        margin-top: rem(40);
@@ -11,7 +11,7 @@
 }
 
 .campaign__btn {
-    margin-top: rem(30);
+    margin-top: rem(31);
     @include mq(md){
         margin-top: rem(72);
     }

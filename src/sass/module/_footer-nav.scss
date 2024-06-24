@@ -26,6 +26,9 @@
 
 .footer-nav__group:first-child {
     width: rem(168);
+    @include mq(md){
+        width: auto;
+    }
 }
 
 .footer-nav__container {
@@ -35,7 +38,7 @@
 .footer-nav__container:not(:first-child) {
      margin-left: rem(16);
      @include mq(md){
-        margin-left: rem(62);
+        margin-left: rem(47.5);
     }
 }
 

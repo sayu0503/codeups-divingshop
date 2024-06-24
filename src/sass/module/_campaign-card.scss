@@ -53,9 +53,8 @@
     line-height: calc(24/16);
     color: $green;
     border-bottom: 1px solid $green-accent;
-    padding-bottom: rem(6);
+    padding-bottom: rem(8);
     @include mq(md){
-        padding-bottom: rem(8);
         margin-top: rem(2);
     }
 }
