@@ -47,6 +47,11 @@
     color: $white;
     display: flex;
     flex-grow: 1;
+    transition: opacity 0.4s;
+}
+
+.sp-nav__title:hover {
+    opacity: 0.7;
 }
 
 .sp-nav__title::before {
@@ -74,5 +79,10 @@
     line-height: calc(18/16);
     color: $white;
     margin-top: rem(24);
+    transition: opacity 0.4s;
+}
+
+.sp-nav__list:hover {
+    opacity: 0.7;
 }
 

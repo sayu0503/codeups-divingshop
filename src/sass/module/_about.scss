@@ -12,6 +12,9 @@
     padding-right: rem(16);
     margin-inline: auto;
     position: relative;
+    @include mq(md){
+        padding: $padding-pc;
+    }
 }
 
 .about__image-container {

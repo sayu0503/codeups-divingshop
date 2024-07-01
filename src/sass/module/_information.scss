@@ -14,8 +14,7 @@
     padding-right: rem(15);
     margin-inline: auto;
     @include mq(md){
-        padding-left: rem(22);
-        padding-right: rem(29);
+        padding: $padding-pc;
     }
 }
 
@@ -41,6 +40,7 @@
 }
 
 .information__image img {
+    max-width: rem(600);
     @include mq(md){
         max-width: rem(540);
         width: 100%;
